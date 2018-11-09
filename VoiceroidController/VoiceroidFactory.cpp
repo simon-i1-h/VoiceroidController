@@ -18,6 +18,9 @@ Voiceroid* VoiceroidFactory::create(VoiceroidType type)
 	case(VoiceroidType::AKANE) :
 		voiceroid = new Akane();
 		break;
+	case(VoiceroidType::KIRITAN_EX) :
+		voiceroid = new KiritanEx();
+		break;
 	}
 
 	return voiceroid;

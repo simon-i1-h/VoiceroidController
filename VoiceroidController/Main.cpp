@@ -89,6 +89,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	else if (options.target_voiceroid_str.compare("Akane") == 0) {
 		voiceroidType = VoiceroidType::AKANE;
 	}
+	else if (options.target_voiceroid_str.compare("KiritanEx") == 0) {
+		voiceroidType = VoiceroidType::KIRITAN_EX;
+	}
 
 	// VOICEROID 作成
 	Voiceroid* voiceroid = VoiceroidFactory::create(voiceroidType);
@@ -191,7 +194,7 @@ Options parseArgs(int argc, _TCHAR* argv[]) {
 	// コマンドライン引数定義
 	opt.add_options()
 		("help,h", "ヘルプを表示")
-		("voiceroid", value<std::string>()->default_value("YukariEx"), "読み上げ VOICEROID(Yukari, YukariEx, Aoi)")
+		("voiceroid", value<std::string>()->default_value("YukariEx"), "読み上げ VOICEROID(Yukari, YukariEx, Aoi, KiritanEx)")
 		("output-file,o", wvalue<std::wstring>(), "出力ファイルパス")
 		("input-file,i", wvalue<std::wstring>(), "入力ファイルパス")
 		("utf8,u", "入力ファイル文字コードを UTF8 として処理")

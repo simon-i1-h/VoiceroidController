@@ -23,6 +23,7 @@ VOICEROID を自動起動させたい場合には、下記環境変数を設定�
 - VOICEROID_YUKARI_EX_EXE: 結月ゆかりの実行ファイルパス(未設定の場合、 `C:\Program Files (x86)\AHS\VOICEROID+\YukariEX\VOICEROID.exe`)
 - VOICEROID_AKANE_EXE: 言葉茜の実行ファイルパス(未設定の場合、 `C:\Program Files (x86)\AHS\VOICEROID+\Akane\VOICEROID.exe`)
 - VOICEROID_AOI_EXE: 言葉葵実行ファイルパス(未設定の場合、 `C:\Program Files (x86)\AHS\VOICEROID+\Aoi\VOICEROID.exe`)
+- VOICEROID_KIRITAN_EX_EXE: 東北きりたん実行ファイルパス(未設定の場合、 `C:\Program Files (x86)\AHS\VOICEROID+\KiritanEX\VOICEROID.exe`)
 
 
 下記のような使い方を想定しています。
@@ -108,7 +109,7 @@ Install:
 License:
 --------
 
-Copyright (C) 2016 mikoto2000
+Copyright (C) 2016 mikoto2000, simon-i1-h
 
 This software is released under the MIT License, see LICENSE
 

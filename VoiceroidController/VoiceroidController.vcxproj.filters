@@ -42,6 +42,9 @@
     <ClCompile Include="Akane.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="KiritanEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -72,6 +75,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Akane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KiritanEx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
